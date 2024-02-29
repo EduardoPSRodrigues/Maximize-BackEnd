@@ -32,5 +32,18 @@ class ListNewsController extends Controller
         }
     }
 
+    public function showFullNews($id)
+    {
+        try {
 
+            $listNews = ListNews::find($id);
+            return $listNews;
+
+            if (!$listNews) return $this->error('Dado não encontrado', Response::HTTP_NOT_FOUND);
+
+            return $listNews;
+        } catch (\Exception $exception) {
+            return $this->error($exception->getMessage(), Response::HTTP_BAD_REQUEST);
+        }
+    }
 }
