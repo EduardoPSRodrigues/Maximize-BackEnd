@@ -15,8 +15,8 @@
 ##
 #### Desafio da Maximize - BackEnd Challenge
 
-|    Autor    |  GitHub   |   WhatsApp  |
+|    Autor    |  Linkedin   |   WhatsApp  |
 |  :---: | :---:  | :---: |
-|  <img src="https://avatars.githubusercontent.com/u/135388215?s=400&u=a37d71f559365352e60211d8f88e41516c7e2e7d&v=4" width="60%" height="60%" alt="Foto do Autor Eduardo Rodrigues" /> | Eduardo Rodrigues :: [@EduardoPSRodrigues](https://github.com/EduardoPSRodrigues) | +55 (24) 99991-9295 |
+|  <img src="https://avatars.githubusercontent.com/u/135388215?s=400&u=a37d71f559365352e60211d8f88e41516c7e2e7d&v=4" width="60%" height="60%" alt="Foto do Autor Eduardo Rodrigues" /> | [Eduardo Rodrigues](https://www.linkedin.com/in/eduardo-rodrigues-a1a0792a4/) | +55 (24) 99991-9295 |
 
 
