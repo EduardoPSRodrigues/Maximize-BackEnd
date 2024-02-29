@@ -4,7 +4,7 @@
 
 ## API MAXIMIZE NEWS
 
-O MAXIMIZE NEWS é uma aplicação baseada em uma API que integra-se ao banco de dados PostgreSQL. Foi desenvolvida para manter os usuários atualizados com o que acontece no Brasil e no mundo. Além disso, oferece funcionalidades como cadastro de notícias, diretamente pelo Thunder Client ou Insomnia, e listagem de notícias.
+O MAXIMIZE NEWS é uma aplicação baseada em uma API que integra-se ao banco de dados PostgreSQL. Foi desenvolvida para manter os usuários atualizados com o que acontece no Brasil e no mundo. Além disso, oferece funcionalidades como cadastro de notícias, diretamente pelo Thunder Client ou Insomnia, além da listagem das notícias em card e a sua visualização completa.
 
 ## 💻 TECNOLOGIAS UTILIZADAS 
 
@@ -13,6 +13,7 @@ Projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Linguagem PHP com o framework Laravel na versão 10.
 - Banco de dados PostgreSQL.
 - Versionamento utilizando GitHub.
+- Biblioteca Axios para fazer requisições HTTP, pois oferece uma sintaxe mais simples e possui um sistema mais robusto para lidar com os erros.
 
 ## 🔣 ARQUITETURA DO PROJETO
 
@@ -66,7 +67,7 @@ php artisan migrate
 
 #### Listagem das matérias - Rota Pública
 
-À medida que o usuário cadastra novas notícias, o sistema atualiza o página no Front End.
+À medida que o usuário realiza o cadastro de novas notícias, o sistema atualiza o página no Front End.
 
 ```http
   GET http://127.0.0.1:8000/api/listnews
@@ -129,8 +130,8 @@ JSON Response
 | ---------- | --------- | ---------------------------------- |
 | titulo | string | Título é obrigatório e máximo: 255 caracteres. |
 | descricao | string | Descrição é obrigatória e máximo: 255 caracteres. |
-| texto_completo | text | A imagem é obrigatória.  |
-| imagem | text | Título é obrigatório. |
+| texto_completo | text | Texto é obrigatório.  |
+| imagem | text | A imagem é obrigatória. |
 | data_de_publicacao | date_format:Y-m-d | Formato: 2024-02-29 e obrigatório. |
 
 JSON Content
